@@ -9,11 +9,11 @@ import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 
 public class OpcDaConnectionProf {
-    private final static String COM_CLS_ID = "F8582CF2-88FB-11D0-B850-00C0F0104305";
-    private final static String OPC_DOMAIN_NAME = "OPC-DOMAIN";
-    private final static String USER = "USER";
-    private final static String PASSWORD = "opc";
-    private final static String CONNECTION_URL = "opc.da://192.168.99.100";
+    private final static String COM_CLS_ID = "F8527792-6B53-4D49-9E81-3099CF2BC8DB";
+    private final static String OPC_DOMAIN_NAME = "Broker";
+    private final static String USER = "user";
+    private final static String PASSWORD = "1985";
+    private final static String CONNECTION_URL = "localhost:1883";
     private final static long TIMEOUT = 1L;
 
    public static OpcDaConnectionProfile getProfile() {
